@@ -1,7 +1,10 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body {
   font-family: "Oswald", sans-serif;
-  margin: 0;
-  padding: 0%;
 }
 .container {
   max-width: 1200px;
@@ -23,10 +26,56 @@ nav {
 .menu-bar li {
   list-style: none;
   margin: 10px;
+  font-weight: 600px;
+}
+.menu-bar li a {
+  padding: 15px 15px;
 }
 #tools {
-  margin-top: 32px;
+  margin-top: 15px;
 }
 #tools:hover {
   color: blue;
+}
+.fa-shopping-cart {
+  padding: 15px 15px;
+}
+.first-section {
+  display: flex;
+  padding-top: 60px;
+  align-items: center;
+}
+.first-section img {
+  width: 400px;
+  padding-right: 30px;
+}
+span {
+  color: red;
+}
+.view {
+  text-decoration: none;
+  background-color: darkmagenta;
+  color: whitesmoke;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-weight: 400px;
+}
+.camera {
+  padding-left: 30px;
+}
+}
+.first-para {
+  padding-right: 10px;
+  display: block;
+}
+.fa-arrow-right {
+  padding-left: 5px;
+}
+.first-photo{
+    overflow: hidden;
+    margin: 30px;
+    padding: 30px;
+}
+.first-photo:hover .photo{
+    transform: scale(1.5);
 }

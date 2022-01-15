@@ -23,9 +23,6 @@ nav {
   height: 60px;
   align-items: center;
 }
-.menu-bar:hover {
-  color: blue;
-}
 .menu-bar li {
   list-style: none;
   margin: 10px;
@@ -37,9 +34,7 @@ nav {
 #tools {
   margin-top: 15px;
 }
-#tools:hover {
-  color: blue;
-}
+
 .fa-shopping-cart {
   padding: 15px 15px;
 }
@@ -121,6 +116,7 @@ padding-right: 140px;
   width: 350px;
   box-shadow: 10px 5px 10px gray;
   background-color: aliceblue;
+  padding-left: 10px;
 }
 .media{
   padding-bottom: 40px;

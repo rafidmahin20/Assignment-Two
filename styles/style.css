@@ -85,3 +85,17 @@ h2{
     padding: 50px;
     color: sienna;
 }
+
+.gears .gear-banner img{
+  width: 224px;
+  height: 120px;
+}
+.tools{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+}
+.gears{
+  padding: 10px 20px;
+  border-radius: 10px;
+}

@@ -54,7 +54,7 @@ span {
   text-decoration: none;
   background-color: darkmagenta;
   color: whitesmoke;
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 15px;
   font-weight: 400px;
 }
@@ -166,9 +166,15 @@ p{
 }
 
 /* mobile device */
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 576px){
+  main{
+    width: 100%;
+    padding: 30px 0;
+    margin: 0 0;
+    
+  }
  
- .container, .first-section, .tools, .gears, .media{
+ .container{
    grid-template-columns: repeat(1. 1fr);
  }
   .container{
@@ -176,9 +182,41 @@ p{
     font-weight: 400;
     border-radius: 10px;
     padding: 8px 12px;
-  }
-  .container, .first-section, .tools, .gears, .media{
     flex-direction: column;
     align-items: center;
+  }
+  .first-section{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-items: center;
+  }
+  .camera .first-head{
+    text-align: center;
+  }
+  .first-para{
+    text-align: center;
+    padding-right: 20px;
+  }
+  .view{
+    align-items: center;
+  }
+  .first-section img{
+    padding-left: 30px;
+  }
+  .second-section{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10 20px;
+  }
+  .tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: -0.4px;
   }
 }

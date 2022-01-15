@@ -97,6 +97,7 @@ h2{
   padding: 20px;
 }
 .gears{
+  text-align: center;
   width: 380px;
   height: 330px;
   padding: 10px 20px;
@@ -118,6 +119,7 @@ padding-right: 140px;
   padding-left: 10px;
 }
 .media{
+  text-align: center;
   padding-bottom: 40px;
 }
 #sound{
@@ -161,4 +163,12 @@ p{
   padding-top: 5px;
   text-align: center;
   padding-bottom: 10px;
+}
+
+/* mobile device */
+@media only screen and (max-width: 688px){
+  main{
+    background-color: cadetblue;
+  }
+  
 }

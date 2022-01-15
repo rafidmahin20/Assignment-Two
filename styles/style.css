@@ -104,8 +104,7 @@ h2{
   box-shadow: 10px 5px 10px gray;
 }
 .see-more{
-display: flex;
-justify-content: end;
+text-align: right;
 padding-right: 140px;
 }
 

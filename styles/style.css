@@ -93,9 +93,15 @@ h2{
 .tools{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 25px;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  margin-left: 100px;
+  padding: 20px;
 }
 .gears{
+  width: 380px;
+  height: 330px;
   padding: 10px 20px;
   border-radius: 10px;
+  box-shadow: 10px 5px 10px gray;
 }

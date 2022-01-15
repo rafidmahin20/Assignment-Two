@@ -111,6 +111,7 @@ h2{
 .see-more{
 display: flex;
 justify-content: end;
+padding-right: 140px;
 }
 
 .audio{
